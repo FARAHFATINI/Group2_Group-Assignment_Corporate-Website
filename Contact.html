@@ -103,7 +103,6 @@
 <div class="content">
 <h2>Feedback Form</h2>
 <div class="container">
-	<form action="/action_page.php">
     <div class="row">
       <div class="col-25">
         <label for="fname">Name</label>
@@ -136,6 +135,13 @@
         <textarea id="subject" name="comment" placeholder="Write something.." style="height:200px"></textarea>
       </div>
     </div>
+	<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
     <div class="row">
 	    <input type="submit" value="Submit">
     </div>
